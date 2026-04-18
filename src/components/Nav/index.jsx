@@ -5,6 +5,7 @@ import { useLang } from "../../context/LangContext";
 import { useTranslation } from "../../i18n/translations";
 import ThemeToggle from "../ThemeToggle";
 import LangToggle from "../LangToggle";
+import amLogo from "../../assets/am.svg";
 import "./styles.css";
 
 /**
@@ -48,7 +49,7 @@ export default function Nav() {
   return (
     <nav className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <a href="#hero" className="nav__logo">
-        AM<span>.</span>
+        <img src={amLogo} alt="AM" className="nav__logo-img" />
       </a>
 
       <div className="nav__links">
