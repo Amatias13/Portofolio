@@ -13,7 +13,7 @@ const LangContext = createContext();
 export function LangProvider({ children }) {
   // Initialize the language state with a value from localStorage or default to "pt"
   const [lang, setLang] = useState(
-    () => localStorage.getItem("lang") || "pt"
+    () => localStorage.getItem("lang") || "en"
   );
 
   // Function to toggle the language between "pt" and "en"

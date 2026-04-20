@@ -8,18 +8,18 @@ export const experience = [
     current: true,
     bullets: {
       pt: [
-        "Desenvolvimento e manutenção de serviços backend e RESTful APIs em JavaScript/Node.js, com feature development e refactoring contínuo.",
+        "Desenvolvimento e manutenção de 6+ plataformas internas com 10+ utilizadores, usando JavaScript/Node.js no backend e React no frontend.",
         "Design e otimização de esquemas de bases de dados relacionais (SQL) e não relacionais (NoSQL), selecionando o modelo adequado por projeto.",
         "Redação de requisitos funcionais e técnicos, servindo de ponte entre negócio e implementação técnica.",
         "Desenvolvimento de interfaces frontend com React, HTML e CSS, garantindo compatibilidade cross-browser.",
         "Code reviews e práticas de refactoring para reduzir dívida técnica e melhorar a manutenibilidade.",
       ],
       en: [
-        "Building and maintaining backend services and RESTful APIs in JavaScript/Node.js, handling feature development and long-term code quality through refactoring.",
-        "Designing and optimizing relational (SQL) and non-relational (NoSQL) database schemas, selecting the appropriate model per project.",
-        "Writing functional and technical requirements, bridging the gap between business needs and implementation.",
-        "Developing frontend interfaces with React, HTML and CSS, ensuring cross-browser compatibility.",
-        "Conducting code reviews and applying refactoring practices to reduce technical debt and improve maintainability.",
+        "Built and maintained 6+ internal platforms used by 10+ users, using JavaScript/Node.js on the backend and React on the frontend.",
+        "Designed and optimized relational (SQL) and non-relational (NoSQL) database schemas, selecting the appropriate model per project.",
+        "Wrote functional and technical requirements, bridging the gap between business needs and implementation.",
+        "Developed frontend interfaces with React, HTML and CSS, ensuring cross-browser compatibility.",
+        "Conducted code reviews and applied refactoring practices to reduce technical debt and improve maintainability.",
       ],
     },
   },
@@ -28,7 +28,7 @@ export const experience = [
     company: "Code Lusitan",
     role: { pt: "Co-Fundador", en: "Co-Founder" },
     location: "Portugal",
-    period: { pt: "2022 — Presente", en: "2022 — Present" },
+    period: { pt: "Dez 2025 — Presente", en: "Dec 2025 — Present" },
     current: true,
     bullets: {
       pt: ["Iniciativa focada em transformar ideias em soluções digitais com impacto real para empresas.", "Missão de impulsionar o crescimento de negócios através da tecnologia e inovação."],
@@ -41,8 +41,8 @@ export const education = [
   {
     id: 1,
     degree: {
-      pt: "Licenciatura em Engenharia Informática",
-      en: "Bachelor's in Computer Engineering",
+      pt: "Licenciatura em Engenharia de Software",
+      en: "Bachelor's in Software Engineering",
     },
     school: "Instituto Politécnico de Setúbal",
     location: "Setúbal, Portugal",
